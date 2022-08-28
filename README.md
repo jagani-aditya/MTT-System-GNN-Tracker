@@ -1,20 +1,4 @@
-# MTT-System-GNN
-GNN tracker is used with EKF to track multiple vehicles/targets in high clutter 
+# radar-vision-sensor-fusion-matlab
+Object-level sensor fusion using radar and vision synthetic data in MATLAB
 
-## Project Description
-This project presents implementation of Global Nearest Neighbour (GNN) tracker to track multiple targets. This system is mainly designed for autonomous vehicles but can be used to track any objects. We use multiple hypothesis using K-best algorithm for 2D assignment for measurement-to-track associations. We further have also added track management to confirm/delete tracks based on probability of target existence. 
-
-
-<p align="center">
-  <img src="/Media/map3.jpg" />
-</p>
-
-## Platform
-* MATLAB
-
-## Implementation
- 
-Navigate to the ```MTT-System-GNN``` folder
-Open ```main``` file and press ```RUN``` in MATLAB workspace
-
-
+This project is a simple implementation of the Aeberhard's PhD thesis [Object-Level Fusion for Surround Environment Perception in Automated Driving Applications](https://d-nb.info/113647157X/34). We use the MATLAB's Scenario Generator Toolbox to create a simple highway driving scenario with synthetic radar and vision observations. The Extended Kalman Filter has been implemented to propagate the vehicles' states to future. The projected state values are compared with the current measurements to perform the tracking.
