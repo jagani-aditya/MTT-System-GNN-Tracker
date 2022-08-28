@@ -11,18 +11,10 @@ This project presents implementation of a multiple object tracking system. We im
 </p>
 
 ## Platform
-* C++
+* MATLAB
 
 ## Implementation
  
-Navigate to the ```build``` folder
+Navigate to the ```MTT-System-GNN-Tracker``` folder
 
-```$ mkdir build```
-
-```$ cd build```
-
-```$ cmake ..```
-
-```$ make ```
-
-```$ ./main ``` 
+Open ```main.m``` file and ```RUN``` it in MATLAB workspace.
