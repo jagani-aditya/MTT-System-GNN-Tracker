@@ -15,6 +15,6 @@ This project presents implementation of Global Nearest Neighbour (GNN) tracker t
 ## Implementation
  
 Navigate to the ```MTT-System-GNN``` folder
-Open '''main''' file and press '''RUN''' in MATLAB workspace
+Open ```main``` file and press ```RUN``` in MATLAB workspace
 
 
