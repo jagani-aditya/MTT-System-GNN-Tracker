@@ -7,7 +7,7 @@ This project presents implementation of a multiple object tracking system. We im
 
 
 <p align="center">
-  <img src="/Media/map3.jpg" />
+  <img src="/Media/tracker.gif" />
 </p>
 
 ## Platform
